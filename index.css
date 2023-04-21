@@ -1,0 +1,206 @@
+/*Navbar Start*/
+
+nav{
+	background-image: url(images/navbar.png);
+	background-size: cover;
+	font-size: 20px;
+	font-family: 'Patrick Hand';
+}
+
+.nav-link {
+	transition: all 0.3s ease-in-out;
+}
+
+.nav-link:focus {
+	outline: none;
+}
+
+.nav-link:hover,
+.nav-link:focus {
+	color: #007bff;
+}
+
+html {
+	scroll-behavior: smooth;
+}
+
+nav img {
+	height: 60px;
+	width: 130px;
+	animation: pulse 2s infinite;
+}
+
+@keyframes pulse {
+	0% {
+		transform: scale(1);
+  }
+	50% {
+		transform: scale(1.05);
+  }
+}
+
+/*Navbar End*/
+
+/*Home Start*/
+
+#home{;
+	background-color: #FFFFFF;
+	height: 600px;
+	background-size: cover;
+}
+
+.header img{
+	height: 550px;
+	margin-top: 50px;
+
+}
+
+/*Home End*/
+
+/*About Us Start*/
+
+#About-Us{
+	height: 1000px;
+	background-image: url(images/sec-bg.png);
+	background-size: cover;
+	
+}
+
+.info{
+	font-family: 'Belleza';
+	font-size: 30px;
+	padding-top: 400px;
+}
+
+.Socials{
+	font-family: 'Delicious Handrawn';
+}
+
+.social-icon {
+	width: 40px;
+	height: 40px;
+	display: inline-block;
+	padding: 0.5rem;
+	border-radius: 20%;
+	color: #fff;
+	transition: background-color 2s ease-in-out;
+	text-align: center;
+    margin: 0 8px;
+}
+
+.social-icon i {
+	display: inline-block;
+	font-size: inherit;
+	border-radius: 50%;
+}
+
+.fb-icon {
+	background-image: url(images/fb.png);
+	background-size: cover;
+}
+
+.insta-icon {
+	background-image: url(images/ig.png);
+	background-size: cover;
+}
+
+.social-icon:hover {
+	background-image: url(images/brand.png);
+	background-size: cover;
+}
+
+/*About Us End*/
+
+/*Products*/
+
+#Products{
+	padding-top: 10px;
+	height: 1000px;
+	background-image: url(images/flavorss.png);
+	background-size: cover;
+}
+
+.flavors{
+	padding-top: 300px;
+}
+
+.flavor{
+	border-radius: 10%;
+	background-color: #5C4643;
+	background-size: cover;
+}
+
+.flavors img{
+	border-radius: 5%;
+}
+
+.flavors h3{
+	font-family: 'Gloria Hallelujah';
+}
+
+.flavors p{
+	font-family: 'Belleza';
+	margin-left: 30px;
+	margin-right: 30px;
+}
+
+/*Products End*/
+
+
+/*FAQs Start*/
+
+#FAQs{
+	padding-top: 200px;
+	height: 1000px;
+	background-image: url(images/plain.png);
+	background-size: cover;
+}
+
+.second img,
+.third img {
+  width: 800px;
+}
+
+
+/*FAQs End*/
+
+
+/*Contact Us Start*/
+
+#Contact-Us{
+	width: 100%;
+	height: auto;
+	background-color: #E6E2E2;
+	background-size: cover;
+	padding: 20px;
+}
+
+#Contact-Us h1{
+	font-family: 'Caveat Brush';
+}
+
+#Contact-Us form{
+	font-family: 'Acme';
+	background-color: #FAF0E1;
+	padding: 25px;
+	border-radius: 10%;
+}
+
+.input-group {
+  width: 120px;
+  margin-right: 20px;
+}
+
+.input-number {
+  width: 100px;
+  text-align: center;
+}
+
+/*Contact Us End*/
+
+
+
+
+
+
+
